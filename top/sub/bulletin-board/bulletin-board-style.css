@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back {
+    height: 100%;
+    width: 100vw;
+    background: linear-gradient(to bottom, #ffffff, #d6ebff);
+}
+
+header {
+    height: 150px;
+    display: flex;
+    width: 100vw;
+}
+
+header div {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+header p {
+    text-align: center;
+    margin-top: 20px;
+    left: 20%;
+    font-weight: 800;
+    font-size: 30px;
+    color: #4c4848;
+}
+
+.headerlogo {
+    width: 150px;
+    top: 0%;
+    margin-top: 0px;
+    margin-left: 5%;
+}
+
+.sidelist {
+    position: sticky;
+    top: 2vh;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #d9dfde;
+    height: 95%;
+    width: 10%;
+    border: 1px solid rgb(70, 70, 70);
+    left: 1%;
+    text-align: center;
+}
+
+.sidelist div {
+    background: #acbeb3;
+    padding-bottom: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sidelist div :hover {
+    background-color: #7d9386;
+    height: 100%
+}
+
+.slidelistsub {
+    height: 4em;
+    ;
+}
+
+.sidelist a {
+    margin-bottom: 0px;
+    font-weight: 900;
+    color: white;
+}
+
+.sidelist p {
+    padding-top: 20px;
+    color: white;
+
+}
+
+.slidelistlast {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.slidelistlast p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.embody {
+    width: 85%;
+    overflow: hidden;
+    margin-left: 2%;
+    background: #dcdcdc;
+    border: 1px solid rgb(70, 70, 70);
+    border-radius: 5px;
+
+}
+
+.logo {
+    object-fit: contain;
+}
+
+.initial {
+    display: flex;
+    background-color: #739f92;
+    color: white;
+    font-weight: 400;
+    align-items: center;
+
+}
+
+.initial p {
+    font-weight: 900;
+}
+
+.twitter:hover {
+    overflow: hidden;
+}
+
+.table1 {
+    font-size: 1.2em;
+}
+
+.twitter-timeline {
+    margin: 2% 0 2% 2%;
+}
+
+section {
+    padding-top: 20px;
+    padding-left: 3%;
+
+}
+
+h2 {
+    margin-left: 15%;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #222222;
+}
+
+table,
+th,
+td {
+    color: #222222;
+    border: 3px solid rgb(130, 130, 130);
+    border-collapse: collapse;
+}
+
+.content {
+    display: flex;
+}
+
+body {
+    width: 100%;
+    margin: 0% auto;
+}
+
+footer {
+    height: 180px;
+    width: 100%;
+}
+
+.shindailogo {
+    margin: 20px 40%;
+    background-color: #222222;
+}
+
+content {
+    display: flex;
+}
