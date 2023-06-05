@@ -1,0 +1,45 @@
+body {
+    background:linear-gradient(pink,rgb(255, 255, 255));
+    text-align: center;
+    height: 100vh;
+}
+
+p , h1{
+    font-size: 14px;
+    color: rgb(54, 54, 54);
+}
+
+h1 {
+    font-size: 100px;
+}
+
+#uranai.hidden {
+    display: none;
+
+}
+.hide{
+    display: none;
+}
+
+#kekka {
+    margin:0;
+    font-size:100px;
+}
+
+
+.bad {
+    color:red;
+}
+.lucky{
+    animation: 0.8s lucky linear infinite;}
+    @keyframes lucky{
+        0%{color: #e60000}
+        14%{color: #f39800}
+        28%{color: #fff100}
+        42%{color: #009944}
+        56%{color: #0068b7}
+        70%{color: #1d2088}
+        85%{color: #920783}
+        100%{color: #e60000}
+    }
+
